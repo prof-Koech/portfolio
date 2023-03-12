@@ -77,3 +77,68 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
+
+.about-me {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 40px;
+	text-align: center;
+  }
+  
+  .about-me img {
+	border-radius: 50%;
+	max-width: 200px;
+	margin: 20px 0;
+  }
+  
+  .about-me p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 20px 0;
+  }
+  
+  .about-me ul {
+	list-style: none;
+	margin: 20px 0;
+	padding: 0;
+  }
+  
+  .about-me li {
+	font-size: 16px;
+	margin: 10px 0;
+  }
+  form {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	border: 2px solid #ccc;
+  }
+  
+  label {
+	font-weight: bold;
+	margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: #0056b3;
+  }
+  
